@@ -1,0 +1,15 @@
+.offercard_content {
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 4em 2em;
+    border-right: 1px solid rgb(180, 180, 180);
+    text-align: center;
+}
+
+.offercard_content--last {
+    border: none;
+}
+
+.offercard_content-icon {
+    font-size: 200%;
+}
