@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './Hero.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 function Hero() {
     return (

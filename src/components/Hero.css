@@ -26,7 +26,7 @@
 
 .hero_txt {
     color: #fff;
-    width: 50%;
+    width: 75%;
     position: relative;
     z-index: 10;
     font-size: 110%;
@@ -56,7 +56,3 @@
     font-family: 'Raleway', sans-serif
 }
 
-/* 
-font-family: 'Oswald', sans-serif;
-font-family: 'Raleway', sans-serif;
- */

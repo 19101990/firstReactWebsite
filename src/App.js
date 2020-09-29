@@ -5,6 +5,14 @@ import Offer from './components/Offer'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 
+// import fontawesome globally
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faCoffee)
+
 function App() {
   return (
     <>

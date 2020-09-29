@@ -1,6 +1,9 @@
 :root {
   --primary-color: rgb(167, 0, 0);
-  --secondary-color: #333;
+  --secondary-color: rgb(28, 27, 27);
+  --bg-gradient: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  --primary-font: 'Oswald', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
 
 * {
@@ -47,3 +50,4 @@
     color: #fff;
     font-size: 100px;
   }
+

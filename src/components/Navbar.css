@@ -51,6 +51,15 @@
     height: 80px;
   }
   
+  .nav-item_active {
+    background: var(--primary-color);
+  }
+
+  .nav-item_active:hover {
+    border-top: 6px solid var(--secondary-color);
+    transition: all 0.2s ease-out;
+  }
+
   .nav-links {
     color: #fff;
     display: flex;
