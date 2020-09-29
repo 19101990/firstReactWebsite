@@ -1,0 +1,36 @@
+.pricingcard_content {
+    width: 28%;
+    background: #ccc;
+}
+
+.pricingcard_content-bundle {
+    position: relative;
+}
+
+.pricingcard_content-bundle span {
+    background: var(--primary-color);
+    color: #fff;
+    padding: .5em 1em;
+    position: relative;
+    top: -0.5em;
+    left: -1em;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+
+.pricingcard_content-txt {
+    padding: 2em 2em;
+    text-align: center;
+}
+
+.pricingcard_content-txt h1 {
+    font-family: var(--primary-font);
+    font-size: 4em;
+    padding: 0.25em 0;
+}
+
+.pricingcard_content-txt h2 {
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-weight: 200;
+}

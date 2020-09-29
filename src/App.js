@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero'
 import Offer from './components/Offer'
+import Pricing from './components/Pricing'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 
@@ -9,9 +10,9 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faCheckSquare, faCoffee)
+library.add(fab, fas)
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       </Router>
       <Hero />
       <Offer />
-      
+      <Pricing />
     </>
   );
 }
