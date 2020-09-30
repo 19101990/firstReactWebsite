@@ -4,7 +4,6 @@
     padding: 2em 2em 6em 2em;
     /* border-right: 1px solid rgb(180, 180, 180); */
     text-align: center;
-    box-shadow: 0 8px 6px -6px black;
 }
 
 .offercard_content--last {
@@ -35,5 +34,6 @@
 }
 
 .offercard_content-txt p {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--secondary-font);
+    line-height: 1.25em;
 }

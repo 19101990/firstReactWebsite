@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero'
 import Offer from './components/Offer'
 import Pricing from './components/Pricing'
+import AboutMe from './components/AboutMe'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 
@@ -26,6 +27,7 @@ function App() {
       <Hero />
       <Offer />
       <Pricing />
+      <AboutMe />
     </>
   );
 }

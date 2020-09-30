@@ -2,8 +2,10 @@
   --primary-color: rgb(167, 0, 0);
   --secondary-color: rgb(28, 27, 27);
   --bg-gradient: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  --bg-light-gradient: linear-gradient(90deg, rgb(218, 218, 218) 0%, rgb(255, 255, 255) 100%);
   --primary-font: 'Oswald', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+  background: var(--bg-light-gradient);
 }
 
 * {

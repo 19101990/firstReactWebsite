@@ -17,7 +17,7 @@ function PricingCard(props) {
         <div className="pricingcard_content-price" >
             <p>{props.price}</p>
         </div>
-      </div>     
+      </div>    
     </>
     )
 }

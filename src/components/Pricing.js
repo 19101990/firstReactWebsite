@@ -4,14 +4,21 @@ import './Pricing.css'
 import PricingCard from './PricingCard.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
+
+
 function Pricing() {
     return (
     <>
       <div className="pricing" >
-      <PricingCard bundle="single" number="1" title="Trening personalny" price="100 PLN"/>
-      <PricingCard bundle="pakiet" number="5 + 1" title="Trening personalny" price="450 PLN"/>
-      <PricingCard bundle="pakiet" number="10" title="Treningów personalnych" price="800 PLN"/>
-      </div>     
+        <PricingCard bundle="single" number="1" title="Trening personalny" price="100 PLN"/>
+        <PricingCard bundle="pakiet" number="5 + 1" title="Trening personalny" price="450 PLN"/>
+        <PricingCard bundle="pakiet" number="10" title="Treningów personalnych" price="800 PLN"/>
+      </div>
+      <div className="pricing" >
+        <PricingCard bundle="single" number="1" title="Masaż sportowy lub relaksacyjny" price="100 PLN"/>
+        <PricingCard bundle="pakiet" number="5" title="Masaży sportowych lub relaksacyjnych" price="450 PLN"/>
+      </div>
     </>
     )
 }
