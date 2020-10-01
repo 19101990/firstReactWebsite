@@ -1,0 +1,19 @@
+.social {
+    background: var(--bg-gradient);
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.4em;
+    padding-right: 3em;
+}
+
+.social a {
+    padding: 0.5em 0.5em 0.25em 0.5em;
+    background: var(--bg-dark);
+    color: #fff;
+}
+
+.social a:hover {
+    background: var(--primary-color);
+}

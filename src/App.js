@@ -6,6 +6,8 @@ import Pricing from './components/Pricing'
 import AboutMe from './components/AboutMe'
 import Trainings from './components/Trainings'
 import ContactMe from './components/ContactMe'
+import Social from './components/Social'
+import Footer from './components/Footer'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 
@@ -33,6 +35,8 @@ function App() {
       <AboutMe />
       <Trainings />
       <ContactMe />
+      <Social />
+      <Footer />
     </>
   );
 }
