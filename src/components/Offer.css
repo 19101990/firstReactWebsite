@@ -7,12 +7,13 @@
 
 .offer_title {
     background: var(--secondary-color);
+    text-align: center;
 }
 
 .offer_title div {
     background: var(--primary-color);
     box-shadow: 0 8px 6px -6px black;
-    width: 33.3%;
+    width: 100%;
     display: inline-block;
     color: #fff;
     padding: .5em 2em;

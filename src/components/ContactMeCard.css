@@ -1,0 +1,40 @@
+.contactmecard_content {
+    min-width: 33.3%;
+    padding: 4em 2em;
+    border-right: 1px solid #fff;
+}
+
+.contactmecard_content:last-child {
+    border: none;
+}
+
+.contactmecard_content-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactmecard_content-txt {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactmecard_content-icon {
+    font-size: 2em;
+    margin: 0 1em 0 0;
+    color: var(--primary-color);
+}
+
+.contactmecard_content-title h3 {
+    font-family: var(--primary-font);
+    letter-spacing: 2px;
+}
+
+.contactmecard_content-txt p {
+    background: var(--primary-color);
+    padding: 0.25em 1em;
+    font-family: var(--secondary-font);
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}

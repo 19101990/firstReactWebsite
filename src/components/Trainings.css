@@ -14,7 +14,7 @@
 .trainings_title div {
     background: var(--primary-color);
     box-shadow: 0 8px 6px -6px black;
-    width: 50%;
+    width: 33.3%;
     display: inline-block;
     color: #fff;
     padding: .5em 2em;

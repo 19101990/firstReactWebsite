@@ -1,0 +1,26 @@
+.contact_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: var(--bg-gradient);
+    padding: 2em;
+}
+
+.contact_title {
+    margin-top: 4em;
+}
+
+.contact_title div {
+    background: var(--primary-color);
+    box-shadow: 0 8px 6px -6px black;
+    width: 50%;
+    display: inline-block;
+    color: #fff;
+    padding: .5em 2em;
+    font-family: var(--primary-font);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+

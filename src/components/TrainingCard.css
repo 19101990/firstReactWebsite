@@ -2,7 +2,7 @@
 .trainingcard-content-bottom {
     min-width: 33%;
     padding: 4em;
-    min-height: 350px;
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .trainingcard-content-bottom {
-    min-height: 300px;
+    min-height: 350px;
 }
 
 .trainingcard_content-txt p,

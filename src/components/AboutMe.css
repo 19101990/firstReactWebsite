@@ -19,14 +19,13 @@
     background: url('../img/about_img.jpg') no-repeat;
     background-size: cover;
     box-shadow: 0 8px 6px -6px black;
-    transform: scale(1.07);
-    /* transition: all 0.4s ease-out; */
+    transition: all 0.4s ease-out;
 }
 
-/* .aboutme-content_picture:hover {
+.aboutme-content_picture:hover {
     transform: scale(1.1);
     transition: all 0.4s ease-out;
-} */
+}
 
 .aboutme-content_text p {
     font-family: var(--secondary-font);

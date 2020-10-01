@@ -5,6 +5,7 @@ import Offer from './components/Offer'
 import Pricing from './components/Pricing'
 import AboutMe from './components/AboutMe'
 import Trainings from './components/Trainings'
+import ContactMe from './components/ContactMe'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 
@@ -31,6 +32,7 @@ function App() {
       <Pricing />
       <AboutMe />
       <Trainings />
+      <ContactMe />
     </>
   );
 }
