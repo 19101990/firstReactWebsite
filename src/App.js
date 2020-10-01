@@ -18,7 +18,8 @@ library.add(fab, fas)
 function App() {
   return (
     <>
-    <Router>
+      <span id="home">top</span>
+      <Router>
       <Navbar />
       <Switch>
         <Route path="/" exact />

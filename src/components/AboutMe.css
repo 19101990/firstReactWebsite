@@ -7,8 +7,9 @@
 .aboutme-content_picture,
 .aboutme-content_text {
     min-width: 50%;
-    min-height: 60vh;
+    min-height: 80vh;
     padding: 3em 5em 3em 6em;
+    font-size: 110%;
     align-self: center;
     background: var(--secondary-color);
     color: #fff;
@@ -18,7 +19,7 @@
     background: url('../img/about_img.jpg') no-repeat;
     background-size: cover;
     box-shadow: 0 8px 6px -6px black;
-    transform: scale(1.1);
+    transform: scale(1.07);
     /* transition: all 0.4s ease-out; */
 }
 
