@@ -36,6 +36,7 @@
     font-family: var(--secondary-font);
     text-transform: uppercase;
     font-weight: 200;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 .trainingcard_content-txt p {

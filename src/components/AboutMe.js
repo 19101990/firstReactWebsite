@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './AboutMe.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './Navbar.css'
 
 
 function AboutMe() {
@@ -9,7 +10,7 @@ function AboutMe() {
     <>
       <div className="aboutme-content" >
         <div className="aboutme-content_picture">
-          
+        
         </div>
         <div className="aboutme-content_text">
         <h1>Dlaczego warto trenować ze mną?</h1>

@@ -10,6 +10,11 @@
     z-index: 999;
     box-shadow: 0 8px 6px -6px black;
   }
+
+  .nav-logo {
+    margin-left: 0.5em;
+    height: 45px;
+  }
   
   .navbar-container {
     display: flex;

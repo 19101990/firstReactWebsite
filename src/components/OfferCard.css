@@ -3,10 +3,13 @@
     color: #fff;
     padding: 4em 2em 6em 2em;
     text-align: center;
+    transition: all 0.8s ease-out;
 }
 
 .offercard_content:hover {
-    background: var(--bg-gradient);
+    background: var(--bg-dark);
+    box-shadow: 0 8px 6px -6px black;
+    transition: all 0.8s ease-out;
 }
 
 .offercard_content-icon {
