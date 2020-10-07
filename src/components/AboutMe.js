@@ -8,7 +8,7 @@ import './Navbar.css'
 function AboutMe() {
     return (
     <>
-      <div className="aboutme-content" >
+      <div id="about" className="aboutme-content" >
         <div className="aboutme-content_picture">
         
         </div>

@@ -22,7 +22,6 @@ library.add(fab, fas)
 function App() {
   return (
     <>
-      <span id="home">top</span>
       <Router>
       <Navbar />
       <Switch>

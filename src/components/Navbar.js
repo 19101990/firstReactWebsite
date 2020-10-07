@@ -1,15 +1,23 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Link, animateScroll as scroll } from "react-scroll";
 import './Navbar.css'
 import logo from '../img/logo-svg-transp.svg';
 
 
 function Navbar() {
+
+    // scrollToTop = () => {
+    //     scroll.scrollToTop();
+    //   };
+
     const [click, setClick] = useState(false)
     const [button, setButton] = useState(true)
 
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
+
+    
 
     // const showButton = () => {
     //     if(window.innerWidth <= 960) {
@@ -25,7 +33,9 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" 
+                    // onClick={this.scrollToTop}
+                    >
                         FizjoTRENER <img className="nav-logo" src={logo} />  
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -33,27 +43,26 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item nav-item_active">
-                            <Link to='#home' className='nav-links' onClick={closeMobileMenu}>
+                        <Link  activeClass="active" to='home' spy={true} smooth={true} offset={-81} duration={500} className='nav-links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='#offer' className='nav-links' onClick={closeMobileMenu}>
+                            <Link  activeClass="active" to='offer' spy={true} smooth={true} offset={-81} duration={500} className='nav-links' onClick={closeMobileMenu}>
                                 Oferta
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='#about' className='nav-links' onClick={closeMobileMenu}>
+                            <Link  activeClass="active" to='about' spy={true} smooth={true} offset={-81} duration={500} className='nav-links' onClick={closeMobileMenu}>
                                 O mnie
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='#kontakt' className='nav-links' onClick={closeMobileMenu}>
+                        <Link  activeClass="active" to='contact' spy={true} smooth={true} offset={-81} duration=  {500} className='nav-links' onClick={closeMobileMenu}>
                                 Kontakt
                             </Link>
                         </li>
                     </ul>
-                    {/* {button && <Button buttonStyle='btn--outline'>SignUp</Button>} */}
                 </div>
             </nav>
         </>
