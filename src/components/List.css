@@ -1,0 +1,15 @@
+.pricingcard_content-txt ul {
+    list-style: none;
+    margin: 2em 0;
+    padding: 0;
+}
+
+.pricingcard_content-txt ul li {
+    font-family: var(--secondary-font);
+    font-weight: 200;
+    margin: .5em 1em .5em 0;
+    padding: .5em 0;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+}

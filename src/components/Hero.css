@@ -47,12 +47,11 @@
 
 .hero_txt button {
     border: none;
-    border-radius: 5px;
     background: var(--primary-color);
     padding: 1em 2em;
     margin: 1em 0;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Raleway', sans-serif;
 }
 

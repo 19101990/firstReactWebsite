@@ -13,6 +13,7 @@ function PricingCard(props) {
         <div className="pricingcard_content-txt" >
             <h1>{props.number}</h1>
             <h2>{props.title}</h2>
+            {props.list}
         </div>
         <div className="pricingcard_content-price" >
             <p>{props.price}</p>

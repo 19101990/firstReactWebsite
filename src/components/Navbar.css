@@ -54,6 +54,7 @@
   
   .nav-item {
     height: 80px;
+    cursor: pointer;;
   }
   
   .nav-item_active {
