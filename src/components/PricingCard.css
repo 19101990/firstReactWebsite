@@ -1,11 +1,11 @@
 .pricingcard_content {
-    width: 30%;
-    background: var(--bg-gradient);
-    color: #fff;
-    box-shadow: 0 8px 6px -6px black;
-    margin: 0 2em;
-    position: relative;
-    /* transition: all 0.4s ease-out; */
+  width: 30%;
+  background: var(--bg-gradient);
+  color: #fff;
+  box-shadow: 0 8px 6px -6px black;
+  margin: 0 2em;
+  position: relative;
+  /* transition: all 0.4s ease-out; */
 }
 
 /* .pricingcard_content:hover {
@@ -14,49 +14,78 @@
 } */
 
 .pricingcard_content-bundle {
-    position: relative;
+  position: relative;
 }
 
 .pricingcard_content-bundle span {
-    background: var(--primary-color);
-    color: #fff;
-    padding: .5em 1em;
-    position: relative;
-    top: -0.5em;
-    left: -1em;
-    font-family: var(--primary-font);
-    text-transform: uppercase;
-    box-shadow: 0 8px 6px -6px black;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.5em 1em;
+  position: relative;
+  top: -0.5em;
+  left: -1em;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .pricingcard_content-txt {
-    padding: 2em 2em;
-    text-align: center;
+  padding: 2em 2em;
+  text-align: center;
 }
 
 .pricingcard_content-txt h1 {
-    font-family: var(--primary-font);
-    font-size: 4em;
-    padding: 0.25em 0;
+  font-family: var(--primary-font);
+  font-size: 4em;
+  padding: 0.25em 0;
 }
 
 .pricingcard_content-txt h2 {
-    text-transform: uppercase;
-    font-family: var(--secondary-font);
-    font-weight: 200;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-weight: 200;
 }
 
 .pricingcard_content-price {
-    background: var(--primary-color);
-    box-shadow: 0 8px 6px -6px black;
-    position: relative;
+  background: var(--primary-color);
+  box-shadow: 0 8px 6px -6px black;
+  position: relative;
 }
 
 .pricingcard_content-price p {
-    padding: 0.5em;
-    text-align: center;
-    color: #fff;
-    font-family: var(--primary-font);
-    font-weight: 400;
-    font-size: 2em;
+  padding: 0.5em;
+  text-align: center;
+  color: #fff;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 2em;
+}
+
+@media (max-width: 1300px) {
+  .pricingcard_content {
+    margin: 0 1em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pricingcard_content {
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .pricingcard_content-bundle span {
+    top: 1.5em;
+    left: 1em;
+  }
+
+  .pricingcard_content-price {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .pricingcard_content {
+    margin: 1em 0;
+    width: 100%;
+  }
 }

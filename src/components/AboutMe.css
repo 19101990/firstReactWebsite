@@ -1,57 +1,104 @@
 .aboutme-content {
-    display: flex;
-    align-items: stretch;
-    margin-top: 5em;
+  display: flex;
+  align-items: stretch;
+  margin-top: 0;
 }
 
 .aboutme-content_picture,
 .aboutme-content_text {
-    min-width: 50%;
-    min-height: 80vh;
-    padding: 3em 5em 3em 6em;
-    font-size: 110%;
-    align-self: center;
-    background: var(--secondary-color);
-    color: #fff;
+  min-width: 50%;
+  min-height: 80vh;
+  padding: 3em 5em 3em 6em;
+  font-size: 110%;
+  align-self: center;
+  background: var(--secondary-color);
+  color: #fff;
 }
 
 .aboutme-content_picture {
-    background: url('../img/about_img.jpg') no-repeat;
-    background-size: cover;
-    box-shadow: 0 8px 6px -6px black;
-    transition: all 0.4s ease-out;
+  background: url("../img/about_img.jpg") no-repeat;
+  background-size: cover;
+  box-shadow: 0 8px 6px -6px black;
+  transition: all 0.4s ease-out;
 }
 
 .about-logo {
-    margin-top: -1em;
-    margin-left: -3em;
-    width: 25%;
-    padding: 1.25em 0.75em 0.75em 0.75em;
-    border-radius: 15px;
-    background: var(--bg-dark);
+  margin-top: -1em;
+  margin-left: -3em;
+  width: 25%;
+  padding: 1.25em 0.75em 0.75em 0.75em;
+  border-radius: 15px;
+  background: var(--bg-dark);
 }
 
 .aboutme-content_picture:hover {
-    transform: scale(1.1);
-    transition: all 0.4s ease-out;
+  transform: scale(1.1);
+  transition: all 0.4s ease-out;
 }
 
 .aboutme-content_text p {
-    font-family: var(--secondary-font);
-    line-height: 1.25em;
+  font-family: var(--secondary-font);
+  line-height: 1.25em;
 }
 
 .aboutme-content_text h1 {
-    font-family: var(--primary-font);
-    text-transform: uppercase;
-    padding: 1em 0;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  padding: 1em 0;
 }
 
 .aboutme-content_text ul {
-    list-style: square;
-    padding: 1em 0 1em 3em;
+  list-style: square;
+  padding: 1em 0 1em 3em;
 }
 
 .aboutme-content_text li {
-    font-family: var(--secondary-font);
+  font-family: var(--secondary-font);
+}
+
+.aboutme_title {
+  margin: 3em 0 0 0;
+  width: 100%;
+}
+
+.aboutme_title div {
+  background: var(--primary-color);
+  box-shadow: 0 8px 6px -6px black;
+  width: 33.4%;
+  display: block;
+  color: #fff;
+  padding: 0.5em 2em;
+  font-family: var(--primary-font);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  position: relative;
+  z-index: 15;
+}
+
+@media (max-width: 1000px) {
+  .aboutme-content_text {
+    padding: 3em 2em;
+  }
+}
+
+@media (max-width: 850px) {
+  .aboutme-content {
+    flex-direction: column;
+  }
+
+  .aboutme-content_picture,
+  .aboutme-content_text {
+    width: 100%;
+    min-height: 50vh;
+    padding: 2em 4em 3em 4em;
+  }
+}
+
+@media (max-width: 750px) {
+  .aboutme_title div {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
 }

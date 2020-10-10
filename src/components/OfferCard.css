@@ -1,37 +1,44 @@
 .offercard_content {
-    background: var(--secondary-color);
-    color: #fff;
-    padding: 4em 2em;
-    text-align: center;
-    transition: all 0.8s ease-out;
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 4em 2em;
+  text-align: center;
+  transition: all 0.8s ease-out;
 }
 
 .offercard_content:hover {
-    background: var(--bg-dark);
-    box-shadow: 0 8px 6px -6px black;
-    transition: all 0.8s ease-out;
+  background: var(--bg-dark);
+  box-shadow: 0 8px 6px -6px black;
+  transition: all 0.8s ease-out;
 }
 
 .offercard_content-icon {
-    font-size: 200%;
-    background: var(--primary-color);
-    color: #fff;
-    display: inline-block;
-    padding: .5em;
-    border-radius: 50%;
+  font-size: 200%;
+  background: var(--primary-color);
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 50%;
 }
 
 .offercard_content-title {
-    padding: 1em;
-    text-transform: uppercase;
+  padding: 1em;
+  text-transform: uppercase;
 }
 
 .offercard_content-title h2 {
-    font-family: var(--secondary-font);
-    font-weight: 400;
+  font-family: var(--secondary-font);
+  font-weight: 400;
 }
 
 .offercard_content-txt p {
-    font-family: var(--secondary-font);
-    line-height: 1.25em;
+  font-family: var(--secondary-font);
+  line-height: 1.25em;
+}
+
+@media (max-width: 850px) {
+  .offercard_content-txt p {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
