@@ -10,12 +10,12 @@ function Hero() {
         <div className="hero_txt">
           <h1>Witaj na mojej stronie!</h1>
           <p>
-            Jestem doświadczonym trenerem personalnym z bardzo dużą wiedzą w
-            dziedzinie fizjoterapii zdobytą na studiach oraz dodatkowych
-            kursach. Swoim podopiecznym oferuję profesjonalną i kompleksową
-            opiekę. Zachęcam do zapoznania się z moją ofertą.
+            Jestem doświadczonym trenerem personalnym z wiedzą z dziedziny
+            fizjoterapii zdobytą na studiach oraz dodatkowych kursach. Swoim
+            podopiecznym oferuję profesjonalną i kompleksową opiekę. Zachęcam do
+            zapoznania się z moją ofertą.
           </p>
-          <button>Więcej</button>
+          <button>Oferta</button>
         </div>
       </div>
     </>

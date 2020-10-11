@@ -11,17 +11,21 @@ function Offer() {
         <OfferCard
           icon=<FontAwesomeIcon icon="dumbbell" />
           title="Trening personalny"
-          text="Lorem ipsum ipsum ipsum lorem dolo sit amet ipsum ipsum lorem dolo sit amet."
+          text="Indywidualnie dobrany program 
+          treningowy dopasowany do potrzeb klienta."
         />
         <OfferCard
           icon=<FontAwesomeIcon icon="hand-holding-water" />
           title="Masaż"
-          text="Lorem ipsum ipsum ipsum lorem dolo sit amet ipsum ipsum lorem dolo sit amet."
+          text="Całościowy lub częściowy 
+          zabieg odprężający."
         />
         <OfferCard
           icon=<FontAwesomeIcon icon="laptop" />
           title="Konsultacje online"
-          text="Lorem ipsum ipsum ipsum lorem dolo sit amet ipsum ipsum lorem dolo sit amet."
+          text="Wideorozmowa w celu dobrania 
+          odpowiedniej strategii treningowej 
+          lub rehabilitacyjnej."
         />
       </div>
     </>

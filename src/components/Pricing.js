@@ -6,34 +6,37 @@ import List from "./List.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const items1 = [
-  "Lorem Ipsum",
-  "Sit dolor",
-  "Ame nat tor",
-  "Halceta trebo Argo",
+  "min. 1 godzina",
+  "trening funkcjonalny, siłowy, obwodowy lub medyczny",
+  "trening na siłowni, w plenerze, w domu lub w biurze",
+  "możliwy trening w parze",
 ];
 const items2 = [
-  "Lorem Ipsum",
-  "Sit dolor",
-  "Ame nat tor",
-  "Halceta trebo Argo",
+  "min. 1 godzina",
+  "trening funkcjonalny, siłowy, obwodowy lub medyczny",
+  "trening na siłowni, w plenerze, w domu lub w biurze",
+  "możliwy trening w parze",
+  "PIĄTY TRENING 50% TANIEJ!",
 ];
 const items3 = [
-  "Lorem Ipsum",
-  "Sit dolor",
-  "Ame nat tor",
-  "Halceta trebo Argo",
+  "min. 1 godzina",
+  "trening funkcjonalny, siłowy, obwodowy lub medyczny",
+  "trening na siłowni, w plenerze, w domu lub w biurze",
+  "możliwy trening w parze",
+  "10 TRENINGÓW W CENIE 8!",
 ];
 const items4 = [
-  "Lorem Ipsum",
-  "Sit dolor",
-  "Ame nat tor",
-  "Halceta trebo Argo",
+  "min. 45m minut mazażu",
+  "masaż relaksacyjny, sportowy lub ujędrniający",
+  "masaż całościowy lub częściowy",
+  "możliwość dojazdu do klienta",
 ];
 const items5 = [
-  "Lorem Ipsum",
-  "Sit dolor",
-  "Ame nat tor",
-  "Halceta trebo Argo",
+  "min. 45m minut mazażu",
+  "masaż relaksacyjny, sportowy lub ujędrniający",
+  "masaż całościowy lub częściowy",
+  "możliwość dojazdu do klienta",
+  "PIĄTY MASAŻ 50% TANIEJ!",
 ];
 
 function Pricing() {
@@ -45,22 +48,22 @@ function Pricing() {
       <div className="pricing">
         <PricingCard
           bundle="single"
-          number="1"
+          number="1x"
           title="Trening personalny"
           list={<List items={items1} />}
           price="100 PLN"
         />
         <PricingCard
           bundle="pakiet"
-          number="5 + 1"
+          number="5x"
           title="Trening personalny"
           list={<List items={items2} />}
           price="450 PLN"
         />
         <PricingCard
           bundle="pakiet"
-          number="10"
-          title="Treningów personalnych"
+          number="10x"
+          title="Trening personalny"
           list={<List items={items3} />}
           price="800 PLN"
         />
@@ -68,15 +71,15 @@ function Pricing() {
       <div className="pricing">
         <PricingCard
           bundle="single"
-          number="1"
+          number="1x"
           title="Masaż"
           list={<List items={items4} />}
           price="100 PLN"
         />
         <PricingCard
           bundle="pakiet"
-          number="5"
-          title="Masaży"
+          number="5x"
+          title="Masaż"
           list={<List items={items5} />}
           price="450 PLN"
         />

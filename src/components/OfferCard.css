@@ -4,6 +4,7 @@
   padding: 4em 2em;
   text-align: center;
   transition: all 0.8s ease-out;
+  min-width: 33.33%;
 }
 
 .offercard_content:hover {

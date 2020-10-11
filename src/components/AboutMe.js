@@ -18,14 +18,18 @@ function AboutMe() {
             Jestem doświadczonym trenerem personalnym z bardzo dużą wiedzą w
             dziedzinie fizjoterapii zdobytą na studiach oraz dodatkowych
             kursach. Swoim podopiecznym oferuję profesjonalną i kompleksową
-            opiekę.
+            opiekę, a treningi dobieram indywidualnie do potrzeb każdego
+            klienta. Pomagam:
           </p>
           <ul>
-            <li>Lorem ipsum sit dolor</li>
-            <li>Lorem ipsum sit dolor</li>
-            <li>Lorem ipsum sit dolor</li>
-            <li>Lorem ipsum sit dolor</li>
+            <li>zrzucić nadmiar kilogramów,</li>
+            <li>zbudować masę mięśniową i wymarzoną sylwetkę,</li>
+            <li>skorygować wady postawy.</li>
           </ul>
+          <p>
+            Moja praca to moja pasja, a na treningach podopiecznym staram się
+            przekazywać całą swoją wiedzę.
+          </p>
         </div>
       </div>
     </>

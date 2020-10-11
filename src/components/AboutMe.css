@@ -39,6 +39,7 @@
 .aboutme-content_text p {
   font-family: var(--secondary-font);
   line-height: 1.25em;
+  margin-top: 1.5em;
 }
 
 .aboutme-content_text h1 {
@@ -49,7 +50,7 @@
 
 .aboutme-content_text ul {
   list-style: square;
-  padding: 1em 0 1em 3em;
+  padding: 1em 0 1em 2em;
 }
 
 .aboutme-content_text li {
