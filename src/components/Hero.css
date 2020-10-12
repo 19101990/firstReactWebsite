@@ -66,3 +66,9 @@
     width: 75%;
   }
 }
+
+@media (max-width: 450px) {
+  .hero_txt {
+    width: 90%;
+  }
+}

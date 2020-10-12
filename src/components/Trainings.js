@@ -30,7 +30,7 @@ function Trainings() {
       <div className="trainings">
         <TrainingCard
           title="Trening w parach"
-          text="Swoim klientom proponuje treningi w parach. Trening może odbyć się na siłowni, w plenerze lub u klienta."
+          text="Niekiedy łatwiej zmotywować się we dwoje, dlatego swoim klientom proponuje treningi w parach. Trening może odbyć się na siłowni, w plenerze lub u klienta."
           classes="trainingcard-content-bottom pair-img"
         />
         <TrainingCard

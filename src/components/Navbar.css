@@ -204,3 +204,19 @@
     transition: all 0.2s ease-out;
   }
 }
+
+@media (max-width: 470px) {
+  .navbar-logo {
+    font-size: 1.7em;
+    margin: 0;
+  }
+
+  .menu-icon {
+    font-size: 1.5em;
+  }
+
+  .nav-logo {
+    margin-left: 0.25em;
+    height: 35px;
+  }
+}
