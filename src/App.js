@@ -43,10 +43,11 @@ function App() {
         buttonText="Rozumiem"
         cookieName="ciasteczka"
         style={{
-          background: "rgba(12, 12, 12, 0.85)",
-          fontSize: "14px",
+          background: "rgb(12, 12, 12)",
+          fontSize: "15px",
           textTransform: "uppercase",
-          padding: "0 3em",
+          margin: "0",
+          padding: "0 3em 0 3em",
           fontWeight: "200",
         }}
         buttonStyle={{
@@ -55,7 +56,6 @@ function App() {
           background: "rgb(167, 0, 0)",
           textTransform: "uppercase",
           padding: "1em 2em",
-          marginTop: "1em",
         }}
         expires={150}
       >
