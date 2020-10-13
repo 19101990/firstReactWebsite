@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Pricing.css";
 import PricingCard from "./PricingCard.js";
 import List from "./List.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const items1 = [
   "min. 1 godzina",
@@ -26,13 +24,13 @@ const items3 = [
   "10 TRENINGÓW W CENIE 8!",
 ];
 const items4 = [
-  "min. 45m minut mazażu",
+  "min. 45m minut masażu",
   "masaż relaksacyjny, sportowy lub ujędrniający",
   "masaż całościowy lub częściowy",
   "możliwość dojazdu do klienta",
 ];
 const items5 = [
-  "min. 45m minut mazażu",
+  "min. 45m minut masażu",
   "masaż relaksacyjny, sportowy lub ujędrniający",
   "masaż całościowy lub częściowy",
   "możliwość dojazdu do klienta",

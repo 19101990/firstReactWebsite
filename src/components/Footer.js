@@ -1,16 +1,14 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import './Footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
-    return (
+  return (
     <>
-      <div className="footer" >
+      <div className="footer">
         <p>Fizjotrener &copy; 2020</p>
-      </div>     
+      </div>
     </>
-    )
+  );
 }
 
-export default Footer
+export default Footer;

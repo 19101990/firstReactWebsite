@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Offer.css";
 import OfferCard from "./OfferCard.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

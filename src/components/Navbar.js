@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-// import { Link } from 'react-router-dom'
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
 import logo from "../img/logo-svg-transp.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
   const [click, setClick] = useState(false);

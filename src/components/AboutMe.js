@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./AboutMe.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Navbar.css";
 
 function AboutMe() {

@@ -80,11 +80,16 @@
 
 @media (max-width: 450px) {
   .hero_txt {
-    width: 90%;
-    margin: 0 auto 3em auto;
+    width: 95%;
+    margin: 0 auto 5em auto;
   }
 
   .hero_txt p {
     display: none;
+  }
+
+  .hero_txt h1 {
+    margin: 0;
+    padding: 0.5em;
   }
 }

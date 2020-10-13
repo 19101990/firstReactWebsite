@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Trainings.css";
 import TrainingCard from "./TrainingCard.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Trainings() {
   return (
