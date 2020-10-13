@@ -83,13 +83,4 @@
     width: 90%;
     margin: 0 auto 3em auto;
   }
-  .hero_txt {
-    color: #fff;
-    width: 50%;
-    margin: 0 0 3em 3em;
-    position: relative;
-    z-index: 10;
-    font-size: 110%;
-    letter-spacing: 1px;
-  }
 }
