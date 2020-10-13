@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fizjotrener/static/css/main.42838f79.chunk.css",
-    "main.js": "/fizjotrener/static/js/main.7410513d.chunk.js",
-    "main.js.map": "/fizjotrener/static/js/main.7410513d.chunk.js.map",
+    "main.js": "/fizjotrener/static/js/main.17d29b4a.chunk.js",
+    "main.js.map": "/fizjotrener/static/js/main.17d29b4a.chunk.js.map",
     "runtime-main.js": "/fizjotrener/static/js/runtime-main.a8443a63.js",
     "runtime-main.js.map": "/fizjotrener/static/js/runtime-main.a8443a63.js.map",
     "static/js/2.87ee9db1.chunk.js": "/fizjotrener/static/js/2.87ee9db1.chunk.js",
     "static/js/2.87ee9db1.chunk.js.map": "/fizjotrener/static/js/2.87ee9db1.chunk.js.map",
     "index.html": "/fizjotrener/index.html",
-    "precache-manifest.e63c84dc6f1ebd6deecf32d82933dac2.js": "/fizjotrener/precache-manifest.e63c84dc6f1ebd6deecf32d82933dac2.js",
+    "precache-manifest.0b58b64c1a2ee1823de41f42f2b865ff.js": "/fizjotrener/precache-manifest.0b58b64c1a2ee1823de41f42f2b865ff.js",
     "service-worker.js": "/fizjotrener/service-worker.js",
     "static/css/main.42838f79.chunk.css.map": "/fizjotrener/static/css/main.42838f79.chunk.css.map",
     "static/js/2.87ee9db1.chunk.js.LICENSE.txt": "/fizjotrener/static/js/2.87ee9db1.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.a8443a63.js",
     "static/js/2.87ee9db1.chunk.js",
     "static/css/main.42838f79.chunk.css",
-    "static/js/main.7410513d.chunk.js"
+    "static/js/main.17d29b4a.chunk.js"
   ]
 }
