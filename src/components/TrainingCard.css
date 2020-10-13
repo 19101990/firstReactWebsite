@@ -6,7 +6,7 @@
   min-height: 400px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
   transition: all 0.4s ease-in;
 }
