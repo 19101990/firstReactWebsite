@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/fizjotrener/static/css/main.4cc1f2b6.chunk.css",
+    "main.js": "/fizjotrener/static/js/main.b69234c7.chunk.js",
+    "main.js.map": "/fizjotrener/static/js/main.b69234c7.chunk.js.map",
+    "runtime-main.js": "/fizjotrener/static/js/runtime-main.a8443a63.js",
+    "runtime-main.js.map": "/fizjotrener/static/js/runtime-main.a8443a63.js.map",
+    "static/js/2.87ee9db1.chunk.js": "/fizjotrener/static/js/2.87ee9db1.chunk.js",
+    "static/js/2.87ee9db1.chunk.js.map": "/fizjotrener/static/js/2.87ee9db1.chunk.js.map",
+    "index.html": "/fizjotrener/index.html",
+    "precache-manifest.2875293619453afd35a92f4545954e94.js": "/fizjotrener/precache-manifest.2875293619453afd35a92f4545954e94.js",
+    "service-worker.js": "/fizjotrener/service-worker.js",
+    "static/css/main.4cc1f2b6.chunk.css.map": "/fizjotrener/static/css/main.4cc1f2b6.chunk.css.map",
+    "static/js/2.87ee9db1.chunk.js.LICENSE.txt": "/fizjotrener/static/js/2.87ee9db1.chunk.js.LICENSE.txt",
+    "static/media/AboutMe.css": "/fizjotrener/static/media/about_img.f41a1182.jpg",
+    "static/media/TrainingCard.css": "/fizjotrener/static/media/pair_img.ff07a2b1.jpg",
+    "static/media/Hero.css": "/fizjotrener/static/media/hero_img.6b3516d8.jpg",
+    "static/media/logo-svg-transp.svg": "/fizjotrener/static/media/logo-svg-transp.0c476572.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8443a63.js",
+    "static/js/2.87ee9db1.chunk.js",
+    "static/css/main.4cc1f2b6.chunk.css",
+    "static/js/main.b69234c7.chunk.js"
+  ]
+}
