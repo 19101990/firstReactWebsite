@@ -15,7 +15,7 @@ function Hero() {
             podopiecznym oferuję profesjonalną i kompleksową opiekę. Zachęcam do
             zapoznania się z moją ofertą.
           </p>
-          <button>Oferta</button>
+          {/* <button>Oferta</button> */}
         </div>
       </div>
     </>

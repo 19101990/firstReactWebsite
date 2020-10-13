@@ -12,6 +12,7 @@ function AboutMe() {
       </div>
       <div className="aboutme-content">
         <div className="aboutme-content_picture"></div>
+        <div className="aboutme-content_picture-md"></div>
         <div className="aboutme-content_text">
           <h1>Dlaczego warto trenować ze mną?</h1>
           <p>

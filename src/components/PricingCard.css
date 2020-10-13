@@ -69,8 +69,12 @@
 
 @media (max-width: 1000px) {
   .pricingcard_content {
-    margin: 0;
-    box-shadow: none;
+    margin: 1em;
+  }
+
+  .pricingcard_content-txt {
+    padding: 2em 0.5em;
+    text-align: center;
   }
 
   .pricingcard_content-bundle span {

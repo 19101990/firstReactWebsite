@@ -81,6 +81,10 @@
   .aboutme-content_text {
     padding: 3em 2em;
   }
+  .aboutme-content_picture {
+    display: none;
+    height: 100vh;
+  }
 }
 
 @media (max-width: 1250px) {
@@ -94,6 +98,11 @@
     min-height: 60vh;
     padding: 2em 4em 6em 4em;
   }
+
+  .aboutme-content_picture {
+    height: 100vh;
+    transform: none;
+  }
 }
 
 @media (max-width: 750px) {
@@ -101,6 +110,12 @@
     width: 100%;
     margin: 0;
     text-align: center;
+  }
+  .aboutme-content_picture {
+    display: block;
+  }
+  .aboutme-content_picture {
+    height: 80vh;
   }
 }
 

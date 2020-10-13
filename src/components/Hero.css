@@ -1,12 +1,13 @@
 .hero {
   padding: 2em;
-  background: url("../img/about_img.jpg") no-repeat;
+  background: url("../img/hero_img.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
   min-height: 88vh;
   /* center content */
   display: flex;
-  justify-content: start;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
   position: relative;
   box-shadow: 0 8px 6px -6px black;
 }
@@ -27,7 +28,7 @@
 .hero_txt {
   color: #fff;
   width: 50%;
-  margin: 0 auto;
+  margin: 0 0 3em 3em;
   position: relative;
   z-index: 10;
   font-size: 110%;
@@ -35,9 +36,13 @@
 }
 
 .hero_txt h1 {
-  margin: 1em 0;
+  margin: 0;
+  padding: 0.2em 0.7em;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  display: inline-block;
+  background: rgba(167, 0, 0, 0.486);
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .hero_txt p {
@@ -64,6 +69,12 @@
 @media (max-width: 800px) {
   .hero_txt {
     width: 75%;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero_txt h1 {
+    text-align: center;
   }
 }
 
