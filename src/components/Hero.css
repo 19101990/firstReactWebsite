@@ -83,4 +83,8 @@
     width: 90%;
     margin: 0 auto 3em auto;
   }
+
+  .hero_txt p {
+    display: none;
+  }
 }
