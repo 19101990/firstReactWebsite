@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9fe462e6dfc3796c86104b77c7cb404d",
+    "revision": "e50b48e6d5bd37ad660ec5926484c907",
     "url": "/fizjotrener/index.html"
   },
   {
-    "revision": "35ad6479e6219b846a5e",
-    "url": "/fizjotrener/static/css/main.d424effb.chunk.css"
+    "revision": "a56b7dd6fdb73c6f3da7",
+    "url": "/fizjotrener/static/css/main.d84f82fb.chunk.css"
   },
   {
-    "revision": "01641ce38ae5627cd97b",
-    "url": "/fizjotrener/static/js/2.87ee9db1.chunk.js"
+    "revision": "a48e5992aae59683cc67",
+    "url": "/fizjotrener/static/js/2.b135a8f9.chunk.js"
   },
   {
     "revision": "a45201720a0efd981f039d141fc0c42a",
-    "url": "/fizjotrener/static/js/2.87ee9db1.chunk.js.LICENSE.txt"
+    "url": "/fizjotrener/static/js/2.b135a8f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "35ad6479e6219b846a5e",
-    "url": "/fizjotrener/static/js/main.17d29b4a.chunk.js"
+    "revision": "a56b7dd6fdb73c6f3da7",
+    "url": "/fizjotrener/static/js/main.0bff17b7.chunk.js"
   },
   {
     "revision": "62b45a36c9b2666f6c3a",
