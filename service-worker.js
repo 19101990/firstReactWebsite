@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fizjotrener/precache-manifest.ede67d924ff74bdf81a9327b80c13c52.js"
+  "/fizjotrener/precache-manifest.2acb614459ef8e22e1a0334661e0f2e0.js"
 );
 
 self.addEventListener('message', (event) => {
