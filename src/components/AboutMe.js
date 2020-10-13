@@ -16,11 +16,10 @@ function AboutMe() {
         <div className="aboutme-content_text">
           <h1>Dlaczego warto trenować ze mną?</h1>
           <p>
-            Jestem doświadczonym trenerem personalnym z bardzo dużą wiedzą w
-            dziedzinie fizjoterapii zdobytą na studiach oraz dodatkowych
-            kursach. Swoim podopiecznym oferuję profesjonalną i kompleksową
-            opiekę, a treningi dobieram indywidualnie do potrzeb każdego
-            klienta. Pomagam:
+            Jestem doświadczonym trenerem personalnym z wiedzą w dziedzinie
+            fizjoterapii zdobytą na studiach oraz dodatkowych kursach. Swoim
+            podopiecznym oferuję profesjonalną i kompleksową opiekę, a treningi
+            dobieram indywidualnie do potrzeb każdego klienta. Pomagam:
           </p>
           <ul>
             <li>zrzucić nadmiar kilogramów,</li>
