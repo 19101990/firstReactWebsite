@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01bcb4b85a8c3c58bbf20c5830fe23e7",
+    "revision": "01b2fee301d369e9a0379c545c981ed9",
     "url": "/fizjotrener/index.html"
   },
   {
-    "revision": "c9cb215f16e5e64b0719",
+    "revision": "edb037e9a3cfffb52455",
     "url": "/fizjotrener/static/css/main.4cc1f2b6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fizjotrener/static/js/2.87ee9db1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c9cb215f16e5e64b0719",
-    "url": "/fizjotrener/static/js/main.b69234c7.chunk.js"
+    "revision": "edb037e9a3cfffb52455",
+    "url": "/fizjotrener/static/js/main.7410513d.chunk.js"
   },
   {
     "revision": "62b45a36c9b2666f6c3a",
